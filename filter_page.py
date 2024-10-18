@@ -22,7 +22,7 @@ def filter_ais_data_page():
     imo_number = st.text_input("Enter Vessel IMO Number:", placeholder="e.g., IMO9704697")
     submit_button = st.button("Filter Data")
 
-    input_csv_file = r'C:\Users\knand\OneDrive\Desktop\SIH\prototype\AIS data\AIS_2020_04_20.csv'
+    input_csv_file = r'AIS_2020_04_20.csv'
     output_csv_file = 'filtered_AIS_2020_04_20.csv'
     
     if submit_button and imo_number:
